@@ -1,0 +1,70 @@
+.Feed-Header {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.918)
+}
+
+.Feed-Body {
+    height: 2500px;
+    width: 100%;
+    background-color: rgb(197, 190, 202);
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Post {
+    height: 700px;
+    width: 40%;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.Post-Header {
+height:10%;
+width:100%;
+display: flex;
+justify-content: space-between;
+}
+
+.Post-Image {
+height:80%;
+width:100%;
+background-image: url(https://s3.travel-cdn.net/pictures/336275/raw.jpg?rev=1);
+background-position: center;
+background-size: contain;
+}
+
+.Post-Image2 {
+    height:80%;
+    width:100%;
+    background-image: url(https://live.staticflickr.com/3619/3630288808_8ce2d46179_z.jpg);
+    background-position: center;
+    background-size: contain;
+    }
+
+.Post-Image3 {
+height:80%;
+width:100%;
+background-image: url(https://i.pinimg.com/originals/a4/44/bd/a444bd50beaa46523c370944963daf40.jpg);
+background-position: center;
+background-size: contain;
+        }
+.Post-Description {
+height:10%;
+width:100%;
+padding: 10px 0px 0px 10px;
+}
+
+.Left-Column {
+    padding: 10px 0px 0px 10px
+}
+.Right-Column {
+    padding: 10px 10px 0px 0px
+}
+
+h4 {
+    color: gray;
+}
